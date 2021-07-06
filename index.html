@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Carlos Antunez | Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <style>
+    .subtitle {
+      max-width:460px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+
+  <style>
+
+    .wrapper{
+      display:grid;
+      grid-template-columns: 35% 35% 35%;
+      position: relative;
+      top: 300px;
+
+    }
+    .wrapper > div:nth-child(2){
+      position: relative;
+      bottom: 90%;
+
+      <!-- padding-left: 15em;-->
+    }
+
+    .square{
+      width: 80%;
+      height: 300px;
+      background:white;
+      position: relative;
+      text-align: justify-all;
+      color:hsl(234, 12%, 34%) ;
+      padding-right: 30px;
+      border-top: 5px solid ;
+      border-color: hsl(0, 78%, 62%);
+    }
+
+    .square2{
+      width: 29%;
+      height: 300px;
+      background:white;
+      position: relative;
+      left: 35%;
+      top: 100px;
+      text-align: justify-all;
+      color:hsl(234, 12%, 34%) ;
+      padding-right: 30px;
+      border-top: 5px solid;
+      border-color: hsl(0, 78%, 62%);
+    }
+
+
+
+    .pic {
+      position: absolute;
+      bottom:15px;
+      right: 15px;
+    }
+  </style>
+
+</head>
+<body>
+  <main>
+
+  <h1>Reliable, efficient delivery
+    <div>
+    <span  style="font-weight: 600">Powered by Technology</span>
+    </div>
+  </h1>
+
+    <p>
+  Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful
+    </p>
+
+    <div class="wrapper">
+      <div class="square">
+      <h2>Supervisor</h2>
+      Monitors activity to identify project roadblocks
+        <img class="pic" src="images/icon-supervisor.svg"
+             alt="test" width="75">
+      </div>
+      <div class="square">
+        <h2>Team Builder</h2>
+        Scans our talent network to create the optimal team for your project
+        <img class="pic" src="images/icon-team-builder.svg"
+             alt="test" width="75">
+      </div>
+      <div class="square">
+        <h2>Calculator</h2>
+        Uses data from past projects to provide better delivery estimates
+        <img class="pic" src="images/icon-calculator.svg"
+             alt="test" width="75">
+      </div>
+
+    </div>
+
+    <div class="square2">
+      <h2>Karma</h2>
+      Regularly evaluates our talent to ensure quality
+      <img class="pic" src="images/icon-karma.svg"
+           alt="test" width="75">
+    </div>
+  </main>
+
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Carlos Antunez</a>.
+    </p>
+  </footer>
+</body>
+</html>
